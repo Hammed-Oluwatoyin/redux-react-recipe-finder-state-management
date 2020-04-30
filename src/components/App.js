@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import SearchRecipes from './SearchRecipes';
-import RecipeList from './RecipeList'
+import RecipeList from './RecipeList';
+
+
 
 class App extends Component {
     render() {
@@ -17,6 +19,7 @@ class App extends Component {
                 <hr/>
                 <hr/>
                 <RecipeList />
+                
             </div>
         )
     }
